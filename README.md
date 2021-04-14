@@ -1,5 +1,4 @@
 # ghcnd
-scalable computing with pyspark   
 This is a project that I have done as part of the course curriculum in pyspark
 
 DATA
