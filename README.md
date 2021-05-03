@@ -77,9 +77,7 @@ LASTYEAR 42 - 45 Integer
 Note that the latitude and longitude correspond to the latitude and longitude in the stations table exactly.
 Page 2 of 8Assignment 1 DATA420-20S1 (C)
 TASKS
-The assignment tasks are separated into three sections, each of which explore the data in increasing
+The assignment tasks are separated into sections, each of which explore the data in increasing
 detail. In the first section you will explore the metadata tables and part of the daily climate summaries to
 help develop your code without waiting all day. In the second section you will answer specific questions
-about the data using the code you have developed. In the third section you will apply everything you
-have learned so far to solve a challenge and write a brief report describing your method and the results
-that you obtained.
+about the data using the code you have developed. 
