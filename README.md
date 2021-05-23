@@ -1,5 +1,5 @@
-# ghcnd
-This is a project that I have done as part of the course curriculum in pyspark
+# Historic Weather Data Study
+This is a scalable computing project that I have done as part of the course curriculum in pyspark
 
 DATA
 In this assignment we will study some of the weather data contained in the Global Historical Climate
