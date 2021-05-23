@@ -1,13 +1,13 @@
-hdfs dfs -mkdir /user/ajo139/outputs/ghcnd # To create a directory
-hdfs dfs -ls /user/ajo139/outputs/ghcnd # To list the contents
-hdfs dfs -rm -r /user/ajo139/outputs/ghcnd/ # to remove a file
-hdfs dfs -du /data/ghcnd/daily # File size
-hdfs dfs -copyToLocal /user/ajo139/outputs/ghcnd/daily_NZ.csv.gz /users/home/ajo139/outputs/data # copy to local directory
-hdfs dfs -du /user/ajo139/outputs/ghcnd
-cat /users/home/ajo139/outputs/data/daily_NZ.csv.gz/*.csv.gz | gunzip | wc -l
-hdfs dfs -cat /user/ajo139/outputs/ghcnd/daily_NZ.csv.gz/*.csv.gz | gunzip | wc -l
-hdfs dfs -copyToLocal /user/ajo139/outputs/ghcnd/NZ_plot.json /users/home/ajo139/outputs/data
-cat /users/home/ajo139/outputs/data/daily_NZ.csv.gz/*.csv.gz | gunzip > NZplot.csv
+#hdfs dfs -mkdir /user/ajo139/outputs/ghcnd # To create a directory
+#hdfs dfs -ls /user/ajo139/outputs/ghcnd # To list the contents
+#hdfs dfs -rm -r /user/ajo139/outputs/ghcnd/ # to remove a file
+#hdfs dfs -du /data/ghcnd/daily # File size
+#hdfs dfs -copyToLocal /user/ajo139/outputs/ghcnd/daily_NZ.csv.gz /users/home/ajo139/outputs/data # copy to local directory
+#hdfs dfs -du /user/ajo139/outputs/ghcnd
+#cat /users/home/ajo139/outputs/data/daily_NZ.csv.gz/*.csv.gz | gunzip | wc -l
+#hdfs dfs -cat /user/ajo139/outputs/ghcnd/daily_NZ.csv.gz/*.csv.gz | gunzip | wc -l
+#hdfs dfs -copyToLocal /user/ajo139/outputs/ghcnd/NZ_plot.json /users/home/ajo139/outputs/data
+#cat /users/home/ajo139/outputs/data/daily_NZ.csv.gz/*.csv.gz | gunzip > NZplot.csv
 
 import sys
 
