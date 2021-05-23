@@ -1,6 +1,12 @@
 # Historic Weather Data Study
 This is a scalable computing project that I have done as part of the course curriculum with pyspark
 
+Analytical tools: HDFS, Apache Spark
+
+Programming language: PySpark (Python API for Spark)
+
+Data set: GHCN Daily
+
 DATA
 In this assignment we study some of the weather data contained in the Global Historical Climate
 Network (GHCN), an integrated database of climate summaries from land surface stations around the
